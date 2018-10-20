@@ -1,0 +1,89 @@
+body{	
+	margin:0;
+	padding:0;
+	background-color:white;
+	}
+	.loginform{
+		width:320px;
+		height:420px;
+		background-color:rgba(255,0,255,.1);
+		
+		top:49%;
+		left:50%;
+		position:absolute;
+		transform:translate(-50%,-50%);
+		box-sizing:border-box;
+		padding:40px 30px;
+	}
+	
+	h1{
+		text-align:center;
+		font-size:22px;
+		padding:0 0 20px;
+		margin:0;
+	}
+	.loginform p{
+		margin:0;
+		padding:0;
+		font-weight:bolder;
+	}
+	.loginform input{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.loginform input[type="text"], input[type="password"]{
+		border:none;
+		border-bottom:2px solid white;
+		background:transparent;
+		outline:none;
+		height:40px;
+		color:white;
+		font-size:25px;
+	}
+	.loginform input[type="submit"]{
+		outline:none;
+		border:none;
+		background-color:rgb(0,0,0,.9);
+		height:30px;
+		color:white;
+		border-radius:20px;
+	}
+	.loginform input[type="submit"]:hover{
+		cursor:pointer;
+		color:rgba(0,4,7,.3);
+		background:rgba(102,0,200,.5);
+		font-weight:bolder;
+		font-size:20px; 
+	}
+	.loginform a{
+		line-height:30px;
+	}
+	
+	#tophead{
+		background-image:linear-gradient(rgba(0,235,0,.1),rgba(0,123,0,.1));
+		height:80px;
+		margin:0;
+		padding:0;
+		align-content:center;
+	}
+	#tophead img{
+		max-width:220px;
+		margin:auto;
+		padding:0;
+		background-size:cover;
+
+
+	}
+	
+	media(max-width: 1500px){
+        #tophead img{
+        	background-size:cover;
+        	width:50%;
+        }
+        #tophead{
+            
+        }
+	}
+	#signupbtn{
+		margin-right:10px;
+	}
