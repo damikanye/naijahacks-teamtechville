@@ -50,7 +50,7 @@
 	<div class="container">
 		<center>
 			<span class="carouselheader"><h1>Our Courses</h1></span>
-      <hr style="border-color:orange; width:70%; border:3px solid orange; border-radius:10px;"> 
+      <hr style=" width:70%; border:2px solid orange; border-radius:10px;">
 		</center>
 		<div class="row">
 			<div class="col-md-6 col-lg-3 col-sm-6">
@@ -85,7 +85,7 @@
 	</div><br><!-- end of container-->
 	<div class="container">
 		<center><h1><span class="carouselheader">Our Team</span></h1></center>
-		<hr style="border-color:orange; width:70%; border:3px solid orange; border-radius:10px;">
+		<hr style="width:70%; border:2px solid orange; border-radius:10px;">
        <div class="row">
        	<div class="col-md-4 col-sm-4">
        		<center><img src="img/berg.jpg" class="imgbd"></center>

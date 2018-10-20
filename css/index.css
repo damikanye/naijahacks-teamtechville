@@ -18,13 +18,6 @@ body{
 	margin:0;
 	padding:0;
 }
-hr .hr1{
-	border:1px solid red;
-
-}
-.imgbd{
-	border-radius:10px solid lavender;
-}
 .carousel-caption{
 	top:25%;
 	padding:10px;
@@ -41,15 +34,10 @@ hr .hr1{
 	color:orange;
 	 font-weight:bold;
 }
-
-	}
-	.carousel-caption p{
-     
-}
 .carousel-caption h1{
       font-size:80px;
 }
-}
+
 
 
 
